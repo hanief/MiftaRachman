@@ -1,5 +1,3 @@
-import { NottinghamLogo, GadjahMadaLogo } from "./UniversityLogos";
-
 export default function Education() {
   return (
     <section id="education" className="mb-12">
@@ -9,7 +7,7 @@ export default function Education() {
         <div className="flex flex-col md:flex-row gap-4">
           <div className="min-w-[60px] md:min-w-[80px]">
             <div className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] bg-gray-100 rounded-md flex items-center justify-center p-2">
-              <NottinghamLogo />
+              <span className="text-2xl font-bold">UN</span>
             </div>
           </div>
           <div>
@@ -22,7 +20,7 @@ export default function Education() {
         <div className="flex flex-col md:flex-row gap-4">
           <div className="min-w-[60px] md:min-w-[80px]">
             <div className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] bg-gray-100 rounded-md flex items-center justify-center p-2">
-              <GadjahMadaLogo />
+              <span className="text-2xl font-bold">UGM</span>
             </div>
           </div>
           <div>
@@ -35,7 +33,7 @@ export default function Education() {
         <div className="flex flex-col md:flex-row gap-4">
           <div className="min-w-[60px] md:min-w-[80px]">
             <div className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] bg-gray-100 rounded-md flex items-center justify-center p-2">
-              <GadjahMadaLogo />
+              <span className="text-2xl font-bold">UGM</span>
             </div>
           </div>
           <div>
