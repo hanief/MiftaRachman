@@ -11,13 +11,13 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 text-primary font-serif min-h-screen py-8">
+    <div className="bg-gray-100 text-primary font-serif min-h-screen py-4 sm:py-8 px-3 sm:px-5">
       <div className="max-w-6xl mx-auto">
-        <div className="bg-white border border-gray-200 shadow-lg rounded-sm overflow-hidden">
+        <div className="bg-white border border-gray-200 shadow-lg rounded-sm overflow-hidden mx-auto">
           <Header />
           <Navigation />
 
-          <main className="px-6 lg:px-10 py-8">
+          <main className="px-4 sm:px-6 lg:px-10 py-6 sm:py-8">
             <Abstract />
             <Education />
 
