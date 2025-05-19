@@ -23,7 +23,7 @@ export default function Footer() {
           </a>{" "}
           |
           <a
-            href="https://www.researchgate.net/"
+            href="https://www.researchgate.net/profile/Mifta-Rachman"
             target="_blank"
             rel="noopener noreferrer"
             className="academic-link ml-2"
@@ -32,7 +32,7 @@ export default function Footer() {
           </a>{" "}
           |
           <a
-            href="https://orcid.org/"
+            href="https://orcid.org/0000-0002-5577-798X"
             target="_blank"
             rel="noopener noreferrer"
             className="academic-link ml-2"
@@ -41,12 +41,12 @@ export default function Footer() {
           </a>{" "}
           |
           <a
-            href="https://ugm.ac.id/"
+            href="https://acadstaff.ugm.ac.id/mrachman"
             target="_blank"
             rel="noopener noreferrer"
             className="academic-link ml-2"
           >
-            Gadjah Mada University
+            UGM Staff Profile
           </a>
         </p>
         <p className="mt-4">
