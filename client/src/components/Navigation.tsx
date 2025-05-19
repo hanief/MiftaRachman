@@ -5,7 +5,7 @@ export default function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["abstract", "research", "publications", "teaching", "awards", "contact"];
+      const sections = ["abstract", "education", "research", "publications", "teaching", "awards", "contact"];
       
       for (const section of sections) {
         const element = document.getElementById(section);
@@ -48,6 +48,15 @@ export default function Navigation() {
               className={`hover:underline ${activeSection === "abstract" ? "text-blue-600 font-bold" : "text-blue-600"}`}
             >
               Abstract
+            </a>
+          </li>
+          <li>
+            <a 
+              href="#education" 
+              onClick={scrollToSection("education")}
+              className={`hover:underline ${activeSection === "education" ? "text-blue-600 font-bold" : "text-blue-600"}`}
+            >
+              Education
             </a>
           </li>
           <li>
