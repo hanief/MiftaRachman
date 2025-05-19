@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 0%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 44%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 0%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 0%;
+  --border: 0 0% 44%;
+  --input: 0 0% 44%;
+  --primary: 0 0% 0%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 20%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 0 0% 44%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 0 0% 44%;
+  --radius: 0.5rem;
+  --link: 210 98% 49%;
+}
+
+.dark {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 0%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 44%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 0%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 0%;
+  --border: 0 0% 44%;
+  --input: 0 0% 44%;
+  --primary: 0 0% 0%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 20%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 0 0% 44%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 0 0% 44%;
+  --radius: 0.5rem;
+  --link: 210 98% 49%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-serif antialiased bg-background text-foreground leading-relaxed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .academic-link {
+    @apply underline text-blue-600 hover:opacity-80;
+  }
+
+  .citation {
+    @apply pl-8 -indent-8 mb-2;
+  }
+
+  .section-title {
+    @apply text-xl font-bold mb-4 uppercase tracking-wider;
+  }
+
+  .subsection-title {
+    @apply text-lg font-bold mb-3;
+  }
+}
+
+@media print {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+  }
+  
+  .print-hide {
+    display: none !important;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 2.54cm;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+  
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  
+  .print-break-before {
+    page-break-before: always;
+  }
+}
