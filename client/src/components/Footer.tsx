@@ -23,6 +23,15 @@ export default function Footer() {
           </a>{" "}
           |
           <a
+            href="https://www.github.com/mprachman/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="academic-link ml-2"
+          >
+            Github
+          </a>{" "}
+          |
+          <a
             href="https://www.researchgate.net/profile/Mifta-Rachman"
             target="_blank"
             rel="noopener noreferrer"
