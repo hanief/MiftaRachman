@@ -4,7 +4,7 @@ export default function Abstract() {
       <h2 className="section-title">Abstract</h2>
       <div className="border-l-4 border-accent pl-4 py-1">
         <p className="text-secondary">
-          Dr. Mifta Rachman is an Associate Professor of Computer Science specializing in artificial intelligence and machine learning with applications in healthcare informatics. His research focuses on developing novel algorithms for medical image analysis, predictive healthcare analytics, and personalized medicine. With over 15 years of academic experience, Dr. Rachman has published extensively in high-impact journals and has secured competitive research grants totaling over $2.5 million. He leads the Health AI Research Laboratory at the University of Technology, collaborating with medical institutions worldwide to advance AI applications in clinical settings.
+          Mifta Rachman is a researcher at the Faculty of Animal Science, Gadjah Mada University, specializing in genetics, genomics, livestock, bioinformatics, and animal breeding. With a focus on genetic diversity and adaptation in livestock, particularly poultry, her research has contributed significantly to understanding genetic polymorphisms and adaptations to environmental stressors such as heat. Her work includes genomic analysis of Nigerian indigenous chickens and studies on genetic markers in cattle. She collaborates with international research institutions including the University of Nottingham and has published in peer-reviewed journals with citations recognizing her contributions to livestock genetics and genomics.
         </p>
       </div>
     </section>

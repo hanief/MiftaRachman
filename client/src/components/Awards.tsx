@@ -1,45 +1,45 @@
 export default function Awards() {
   return (
     <section id="awards" className="mb-12">
-      <h2 className="section-title">Honors and Awards</h2>
+      <h2 className="section-title">Academic Metrics & Recognition</h2>
       
-      <ul className="space-y-4 mb-8">
-        <li>
-          <div className="font-bold">Outstanding Research Award (2023)</div>
-          <p className="text-secondary text-sm">University of Technology Faculty Recognition Program</p>
-        </li>
-        <li>
-          <div className="font-bold">Distinguished Paper Award (2022)</div>
-          <p className="text-secondary text-sm">International Conference on Machine Learning</p>
-        </li>
-        <li>
-          <div className="font-bold">Innovation in Healthcare Technology Award (2021)</div>
-          <p className="text-secondary text-sm">National Institute of Health Informatics</p>
-        </li>
-        <li>
-          <div className="font-bold">Excellence in Teaching Award (2020)</div>
-          <p className="text-secondary text-sm">College of Engineering, University of Technology</p>
-        </li>
-        <li>
-          <div className="font-bold">Best Mentor Award (2019)</div>
-          <p className="text-secondary text-sm">Graduate Student Association</p>
-        </li>
-      </ul>
+      <div className="mb-8">
+        <h3 className="subsection-title">Citation Metrics</h3>
+        <div className="grid grid-cols-2 gap-4 mb-4">
+          <div className="border p-4 rounded">
+            <div className="font-bold text-lg">50</div>
+            <p className="text-secondary text-sm">Total Citations</p>
+          </div>
+          <div className="border p-4 rounded">
+            <div className="font-bold text-lg">30</div>
+            <p className="text-secondary text-sm">Citations since 2020</p>
+          </div>
+          <div className="border p-4 rounded">
+            <div className="font-bold text-lg">3</div>
+            <p className="text-secondary text-sm">h-index</p>
+          </div>
+          <div className="border p-4 rounded">
+            <div className="font-bold text-lg">1</div>
+            <p className="text-secondary text-sm">i10-index</p>
+          </div>
+        </div>
+        <p className="text-sm italic">Source: Google Scholar, May 2025</p>
+      </div>
       
-      <h2 className="section-title">Grants and Funding</h2>
+      <h3 className="subsection-title">Research Collaborations</h3>
       
       <ul className="space-y-4">
         <li>
-          <div className="font-bold">"AI-Driven Medical Imaging Analysis for Early Disease Detection" (2022-2025)</div>
-          <p className="text-secondary text-sm">National Science Foundation, $1.2M, Principal Investigator</p>
+          <div className="font-bold">Centre for Tropical Livestock Genetics and Health (CTLGH)</div>
+          <p className="text-secondary text-sm">Research collaboration on genomic analysis of indigenous livestock breeds and their adaptation to environmental stressors.</p>
         </li>
         <li>
-          <div className="font-bold">"Privacy-Preserving Machine Learning for Healthcare" (2021-2024)</div>
-          <p className="text-secondary text-sm">National Institutes of Health, $850K, Co-Principal Investigator</p>
+          <div className="font-bold">University of Nottingham</div>
+          <p className="text-secondary text-sm">International collaboration with Prof. Olivier Hanotte on livestock genomics and adaptation genetics.</p>
         </li>
         <li>
-          <div className="font-bold">"Explainable AI for Clinical Decision Support" (2020-2023)</div>
-          <p className="text-secondary text-sm">Medical Research Council, $450K, Principal Investigator</p>
+          <div className="font-bold">International Livestock Research Institute (ILRI)</div>
+          <p className="text-secondary text-sm">Collaboration on conservation genetics of indigenous livestock breeds in developing countries.</p>
         </li>
       </ul>
     </section>
