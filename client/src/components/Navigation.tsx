@@ -90,7 +90,7 @@ export default function Navigation() {
             <a 
               href="#contact" 
               onClick={scrollToSection("contact")}
-              className={`hover:underline ${activeSection === "contact" ? "text-link font-bold" : "text-link"}`}
+              className={`hover:underline ${activeSection === "contact" ? "text-blue-600 font-bold" : "text-blue-600"}`}
             >
               Contact
             </a>
