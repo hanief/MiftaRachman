@@ -1,7 +1,7 @@
 export default function Header() {
   return (
-    <header className="pt-10 px-6 lg:px-10 max-w-6xl mx-auto">
-      <div className="text-center border-b border-accent pb-6">
+    <header className="pt-10 px-0 max-w-6xl mx-auto">
+      <div className="text-center border-b border-accent pb-4">
         <h1 className="text-3xl md:text-4xl font-serif font-bold mb-2">
           Mifta Rachman
         </h1>
